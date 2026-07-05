@@ -1,0 +1,23 @@
+Arpan Baral
+Grade 11 Science Student
+Nepal
+
+Focus
+- Building practical software projects
+- Improving programming fundamentals
+- Preparing for Computer Science studies abroad
+
+Skills
+- Programming: C, Python, Java, JavaScript, TypeScript
+- Web: HTML, CSS, React, Next.js, Tailwind CSS
+- Tools: Git, GitHub, VS Code, Linux
+- Learning: Algorithms, Data Structures, Computer Networks, Operating Systems
+
+Projects
+- Student Result System
+- Personal Portfolio
+- Weather App
+- Expense Tracker
+
+Contact
+- Email: contact@arpan-baral.com.np
