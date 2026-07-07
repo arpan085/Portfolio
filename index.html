@@ -23,7 +23,7 @@
           <a href="#top">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
+          <a href="projects.html">Projects</a>
           <a href="#journey">Journey</a>
           <a href="assets/files/resume.txt" download="Arpan-Baral-Resume.txt">Resume</a>
           <a href="#contact">Contact</a>
@@ -62,7 +62,7 @@
           </div>
           <div class="hero-card reveal" aria-label="Profile preview">
             <div class="hero-accent" aria-hidden="true"></div>
-            <img src="assets/images/hero-portrait.svg" alt="Abstract geometric illustration for Arpan Baral" />
+            <img src="assets/images/profile.png" alt="Profile portrait for Arpan Baral" />
             <div class="hero-card-caption">
               <span>Currently learning</span>
               <strong id="hero-inline-learning"></strong>
@@ -106,7 +106,54 @@
         <div class="container">
           <h2 class="section-title reveal">Projects</h2>
           <p class="section-intro reveal">Most of my work so far has been small, practical, and focused on learning by doing.</p>
-          <div class="project-grid" id="projects-grid"></div>
+
+          <article class="project-showcase reveal" aria-labelledby="cheapflix-title">
+            <div class="showcase-hero">
+              <div class="showcase-copy">
+                <span class="showcase-kicker">Featured project</span>
+                <h3 class="showcase-title" id="cheapflix-title">CheapFlix Nepal</h3>
+                <p class="showcase-tagline">Helping users discover affordable streaming subscriptions in Nepal.</p>
+                <p class="showcase-summary">A small project focused on making streaming subscription choices easier to understand for local users.</p>
+                <div class="hero-actions">
+                  <a class="button primary" href="https://cheapflixnepal.live/" target="_blank" rel="noreferrer">Live website</a>
+                  <a class="button secondary" href="https://github.com/arpan085/CheapFlixNepaloriginal" target="_blank" rel="noreferrer">GitHub repository</a>
+                  <a class="button secondary" href="projects.html#cheapflix-project" aria-label="Open CheapFlix Nepal project page">More about this project</a>
+                </div>
+              </div>
+              <div class="showcase-panel">
+                <h4>Quick note</h4>
+                <ul>
+                  <li>Simple browsing experience.</li>
+                  <li>Clear local focus for Nepal.</li>
+                  <li>Built with usability in mind.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cheapflix-details" id="cheapflix-details" hidden>
+              <div class="showcase-grid compact-grid">
+                <div class="showcase-card">
+                  <h4>What it does</h4>
+                  <p>It helps people in Nepal find streaming subscription options in a simpler and more approachable way.</p>
+                </div>
+                <div class="showcase-card">
+                  <h4>Why I built it</h4>
+                  <p>I wanted to make premium streaming access feel less confusing and more practical for local users.</p>
+                </div>
+              </div>
+              <div class="hero-actions">
+                <button class="button secondary" id="back-cheapflix-details" type="button">Go back</button>
+              </div>
+            </div>
+          </article>
+
+          <div class="project-preview-wrap reveal">
+            <div class="section-subtitle">Other recent work</div>
+            <div class="project-grid" id="projects-grid"></div>
+            <div class="hero-actions">
+              <a class="button secondary" href="projects.html">See all projects</a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -178,6 +225,13 @@
         </div>
       </section>
     </main>
+
+    <div class="lightbox" id="image-lightbox" hidden>
+      <div class="lightbox-inner">
+        <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close preview">×</button>
+        <img id="lightbox-image" src="" alt="Project preview" />
+      </div>
+    </div>
 
     <footer class="footer">
       <div class="container">

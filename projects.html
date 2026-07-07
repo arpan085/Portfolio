@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Projects by Arpan Baral, including CheapFlix Nepal and other growing web development work." />
+    <meta name="theme-color" content="#050816" />
+    <title>Projects | Arpan Baral</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html">Arpan Baral</a>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="index.html#top">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#skills">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="index.html#journey">Journey</a>
+          <a href="assets/files/resume.txt" download="Arpan-Baral-Resume.txt">Resume</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title reveal">Projects</h1>
+          <p class="section-intro reveal">A few projects I have built while learning software development. I keep them practical, honest, and easy to improve.</p>
+
+          <article class="project-showcase reveal" id="cheapflix-project" aria-labelledby="cheapflix-title">
+            <div class="showcase-hero">
+              <div class="showcase-copy">
+                <span class="showcase-kicker">Featured project</span>
+                <h2 class="showcase-title" id="cheapflix-title">CheapFlix Nepal</h2>
+                <p class="showcase-tagline">Helping users discover affordable streaming subscriptions in Nepal.</p>
+                <p class="showcase-summary">The goal was to make premium streaming subscriptions easier and more affordable to discover for people in Nepal. I built it because the options felt scattered, confusing, and harder to compare than they should have been.</p>
+                <div class="hero-actions">
+                  <a class="button primary" href="https://cheapflixnepal.live/" target="_blank" rel="noreferrer">Live website</a>
+                  <a class="button secondary" href="https://github.com/arpan085/CheapFlixNepaloriginal" target="_blank" rel="noreferrer">GitHub repository</a>
+                </div>
+              </div>
+              <div class="showcase-panel">
+                <h4>Project snapshot</h4>
+                <ul>
+                  <li>Simple browsing experience for subscription options.</li>
+                  <li>Clear focus on local users in Nepal.</li>
+                  <li>Built as a small product-style project with attention to usability.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="showcase-grid compact-grid">
+              <div class="showcase-card">
+                <h4>What it does</h4>
+                <p>It helps users find streaming subscription options in a simpler and more approachable way.</p>
+              </div>
+              <div class="showcase-card">
+                <h4>Why I built it</h4>
+                <p>I wanted to make premium streaming access feel less confusing and more practical for local users.</p>
+              </div>
+            </div>
+
+            <details class="case-study" id="cheapflix-case-study">
+              <summary>See more about the project</summary>
+              <div class="case-study-body">
+                <p>The main goal was to make premium streaming subscriptions easier and more affordable to discover for users in Nepal.</p>
+                <p>I built it because the options were scattered and hard to compare, especially for people who wanted something simple and trustworthy.</p>
+                <p>Along the way, I worked on the layout, user flow, and responsive design so the site would feel clear on both mobile and desktop.</p>
+                <p>I also learned that good frontend work is often about making fewer choices feel clearer rather than adding more features.</p>
+              </div>
+            </details>
+          </article>
+
+          <div class="project-grid" id="projects-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Arpan Baral. Built with patience, curiosity, and steady practice.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/content.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+  </body>
+</html>

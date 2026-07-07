@@ -8,7 +8,7 @@ window.siteContent = {
     name: 'Arpan Baral',
     roles: ['Student', 'Learning software development', 'Building projects'],
     intro: 'I am a Grade 11 science student in Nepal, learning programming by building small tools and reading about how good software works. I like the parts that feel slow, careful, and useful.',
-    learningLine: 'Currently learning Java, systems, and thoughtful web work.',
+    learningLine: 'Currently learning Python, machine learning, and building systems.',
     buttons: [
       { label: 'View projects', href: '#projects' },
       { label: 'Contact', href: '#contact' }
@@ -147,14 +147,26 @@ window.siteContent = {
   ],
   certificates: [
     {
-      title: 'Intro to Programming',
-      issuer: 'Online Learning Platform',
+      title: 'Python for Data Science',
+      issuer: 'Coursera | University of Michigan',
       date: '2024',
       link: '#'
     },
     {
-      title: 'Web Development Basics',
-      issuer: 'Online Learning Platform',
+      title: 'Introduction to Machine Learning',
+      issuer: 'Andrew Ng | Machine Learning Specialization',
+      date: '2024',
+      link: '#'
+    },
+    {
+      title: 'Web Development Fundamentals',
+      issuer: 'freeCodeCamp',
+      date: '2023',
+      link: '#'
+    },
+    {
+      title: 'Data Structures and Algorithms',
+      issuer: 'LeetCode Learning',
       date: '2024',
       link: '#'
     }
