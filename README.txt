@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Portfolio
 
 A modern personal portfolio built to showcase who I am, the projects I've worked on, and the technologies I'm learning as I grow as a Python developer.
@@ -88,3 +89,30 @@ If you have suggestions or notice something that can be improved, feel free to o
 ## License
 
 This project is available under the MIT License.
+=======
+Portfolio Website
+=================
+
+This project is a personal portfolio website for Arpan Baral built with plain HTML, CSS, and JavaScript.
+
+Features
+--------
+- Responsive single-page layout
+- Sections for about, skills, projects, journey, and contact
+- Accessible navigation and skip link
+- Theme toggle and smooth animated interactions
+
+Project Structure
+-----------------
+- index.html — main portfolio page
+- assets/css/portfolio.css — styling and animations
+- assets/js/portfolio.js — interactivity and content behavior
+- assets/js/content.js — portfolio content data
+- projects.html — additional project page
+
+
+
+Customization
+-------------
+Update the content in assets/js/content.js to change text, projects, links, and other portfolio details.
+>>>>>>> 1d00bcd (Update README)
