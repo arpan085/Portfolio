@@ -13,7 +13,7 @@ I enjoy building practical software, exploring artificial intelligence, and turn
 This portfolio serves as a place to share my work, document my progress, and connect with other developers.
    
 ## Features
-
+                  
 * Responsive design
 * Modern user interface
 * Smooth animations
