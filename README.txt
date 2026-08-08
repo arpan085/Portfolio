@@ -11,7 +11,7 @@ Hi, I'm **Arpan Baral**, a Python developer from Nepal.
 I enjoy building practical software, exploring artificial intelligence, and turning ideas into real projects. My goal is to become a Machine Learning and AI Engineer while continuing to improve my skills through hands-on development.
 
 This portfolio serves as a place to share my work, document my progress, and connect with other developers.
-
+   
 ## Features
 
 * Responsive design
