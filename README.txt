@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Personal Portfolio #ARPAN BARAL
 
 A modern personal portfolio built to showcase who I am, the projects I've worked on, and the technologies I'm learning as I grow as a Python developer.
 
