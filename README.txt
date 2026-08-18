@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Personal Portfolio
+=======
+# Personal Portfolio #ARPAN BARAL
+>>>>>>> origin/main
 
 A modern personal portfolio built to showcase who I am, the projects I've worked on, and the technologies I'm learning as I grow as a Python developer.
 
@@ -7,16 +11,16 @@ The website is designed with simplicity and performance in mind, focusing on cle
   
 fassfsf
 
-## About
+## About  
 
 Hi, I'm **Arpan Baral**, a Python developer from Nepal.
-
-I enjoy building practical software, exploring artificial intelligence, and turning ideas into real projects. My goal is to become a Machine Learning and AI Engineer while continuing to improve my skills through hands-on development.
+    
+I enjoy building practical software, exploring artificial intelligence, and turning ideas into real projects. My goal is to become a Machine Learning and AI Engineer while continuing to improve my skills through hands-on development   
 
 This portfolio serves as a place to share my work, document my progress, and connect with other developers.
-
+   
 ## Features
-
+                  
 * Responsive design
 * Modern user interface
 * Smooth animations
