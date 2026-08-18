@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Arpan Baral is a Grade 11 science student in Nepal building software projects, learning steadily, and preparing for computer science studies abroad." />
+    <meta name="theme-color" content="#050816" />
+    <title>Arpan Baral | Student building software with curiosity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#top">Arpan Baral</a>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="#top">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="#journey">Journey</a>
+          <a href="assets/files/resume.txt" download="Arpan-Baral-Resume.txt">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 8h10"></path>
+                  <path d="M7 12h7"></path>
+                  <path d="M7 16h5"></path>
+                  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                </svg>
+              </span>
+              <span>STUDENT • BUILDER • LEARNER</span>
+            </div>
+            <h1>Hello, I’m <span class="name" id="hero-name">Arpan Baral</span></h1>
+            <p class="intro" id="hero-intro">I am a Grade 11 science student in Nepal, learning programming by building small tools and reading about how good software works. I like the parts that feel slow, careful, and useful.</p>
+            <p class="hero-meta" id="hero-meta"></p>
+            <div class="hero-actions" id="hero-actions"></div>
+            <div class="social-links" id="hero-socials"></div>
+          </div>
+          <div class="hero-card reveal" aria-label="Profile preview">
+            <div class="hero-accent" aria-hidden="true"></div>
+            <img src="assets/images/profile.png" alt="Profile portrait for Arpan Baral" />
+            <div class="hero-card-caption">
+              <span>Currently learning</span>
+              <strong id="hero-inline-learning"></strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <h2 class="section-title reveal">About</h2>
+          <p class="section-intro reveal">I am learning software development the way I think it should be learned — slowly, carefully, and with real practice.</p>
+          <div class="about-grid">
+            <div class="card reveal">
+              <p id="about-intro"></p>
+            </div>
+            <div class="card reveal">
+              <p id="about-body"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="journey">
+        <div class="container">
+          <h2 class="section-title reveal">My journey</h2>
+          <p class="section-intro reveal">The path has been simple so far: learn fundamentals, build things, and keep improving without rushing.</p>
+          <div class="timeline" id="journey-list"></div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="container">
+          <h2 class="section-title reveal">Skills</h2>
+          <p class="section-intro reveal">I am still growing, but I am comfortable with the basics and serious about strengthening the areas that matter most.</p>
+          <div class="skill-grid" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <h2 class="section-title reveal">Projects</h2>
+          <p class="section-intro reveal">Most of my work so far has been small, practical, and focused on learning by doing.</p>
+
+          <article class="project-showcase reveal" aria-labelledby="cheapflix-title">
+            <div class="showcase-hero">
+              <div class="showcase-copy">
+                <span class="showcase-kicker">Featured project</span>
+                <h3 class="showcase-title" id="cheapflix-title">CheapFlix Nepal</h3>
+                <p class="showcase-tagline">Helping users discover affordable streaming subscriptions in Nepal.</p>
+                <p class="showcase-summary">A small project focused on making streaming subscription choices easier to understand for local users.</p>
+                <div class="hero-actions">
+                  <a class="button primary" href="https://cheapflixnepal.live/" target="_blank" rel="noreferrer">Live website</a>
+                  <a class="button secondary" href="https://github.com/arpan085/CheapFlixNepaloriginal" target="_blank" rel="noreferrer">GitHub repository</a>
+                  <a class="button secondary" href="projects.html#cheapflix-project" aria-label="Open CheapFlix Nepal project page">More about this project</a>
+                </div>
+              </div>
+              <div class="showcase-panel">
+                <h4>Quick note</h4>
+                <ul>
+                  <li>Simple browsing experience.</li>
+                  <li>Clear local focus for Nepal.</li>
+                  <li>Built with usability in mind.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cheapflix-details" id="cheapflix-details" hidden>
+              <div class="showcase-grid compact-grid">
+                <div class="showcase-card">
+                  <h4>What it does</h4>
+                  <p>It helps people in Nepal find streaming subscription options in a simpler and more approachable way.</p>
+                </div>
+                <div class="showcase-card">
+                  <h4>Why I built it</h4>
+                  <p>I wanted to make premium streaming access feel less confusing and more practical for local users.</p>
+                </div>
+              </div>
+              <div class="hero-actions">
+                <button class="button secondary" id="back-cheapflix-details" type="button">Go back</button>
+              </div>
+            </div>
+          </article>
+
+          <div class="project-preview-wrap reveal">
+            <div class="section-subtitle">Other recent work</div>
+            <div class="project-grid" id="projects-grid"></div>
+            <div class="hero-actions">
+              <a class="button secondary" href="projects.html">See all projects</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="learning">
+        <div class="container">
+          <h2 class="section-title reveal">Currently learning</h2>
+          <p class="section-intro reveal">I prefer to be honest about what I am learning rather than pretend I know everything.</p>
+          <ul class="learning-list" id="learning-list"></ul>
+        </div>
+      </section>
+
+      <section class="section" id="certificates">
+        <div class="container">
+          <h2 class="section-title reveal">Certificates</h2>
+          <p class="section-intro reveal">I keep track of learning milestones and will add certificates here as they become part of my real progress.</p>
+          <div class="cert-grid" id="certificates-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="blog">
+        <div class="container">
+          <h2 class="section-title reveal">Notes and writing</h2>
+          <p class="section-intro reveal">I write down what I learn, especially when a project or mistake teaches me something worth keeping.</p>
+          <div class="blog-grid" id="blog-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="container">
+          <div class="resume-card reveal">
+            <div>
+              <h2 class="section-title">Resume</h2>
+              <p id="resume-summary"></p>
+              <ul id="resume-highlights"></ul>
+            </div>
+            <div class="hero-actions">
+              <a class="button primary" href="assets/files/resume.txt" download="Arpan-Baral-Resume.txt">Download resume</a>
+              <a class="button secondary" href="#contact">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-card reveal">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-intro">If you want to talk about study plans, projects, or software, feel free to reach out.</p>
+            <div class="contact-links" id="contact-links"></div>
+          </div>
+          <div class="contact-card reveal">
+            <form id="contact-form">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="Your email" required />
+              </label>
+              <label>
+                Message
+                <textarea name="message" placeholder="Tell me a little about what you are working on." required></textarea>
+              </label>
+              <button class="button primary" type="submit">Send message</button>
+              <p class="muted" id="form-status" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="image-lightbox" hidden>
+      <div class="lightbox-inner">
+        <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close preview">×</button>
+        <img id="lightbox-image" src="" alt="Project preview" />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Arpan Baral. Built with patience, curiosity, and steady practice.!</p>
+        <p id="footer-note"></p>
+      </div>
+    </footer>
+
+    <script src="assets/js/content.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+  </body>
+</html>
